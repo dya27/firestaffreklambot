@@ -36,9 +36,9 @@ if(message.channel.type === 'dm') {
 
 if (message.content.startsWith("https://discord.gg/")) {
     
-  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/ZEQBFuBc3K`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
+  message.author.send(` دانرا تۆش ڕیکلامەکە بکە https://discord.gg/TnpvaNy2AT`) // لینکی سێرڤەری خۆت لیرە دابنی بە هەتا هەتای بێت
     
-  client.channels.get("865672005730172978").send(
+  client.channels.get("863125068845154313").send(
 `By: <@${message.author.id}> ✅ 
 ${message.content}`)
 }
@@ -103,4 +103,4 @@ client.user.setGame(`ڕیکلامەکە بنێرە بۆمن دایدەنێم☑�
 
 
 
-client.login("ODcyODQ4MDc4NTU2NzU4MDQ2.YQv1Hg.-jEpQ6NsrXzBzSmcQuopMTXKqls");//تۆکین لێرە دانێ
+client.login("ODcyNDg2NjA0MzIzODE5NTcw.YQqkeA.QtgZwKq7NHKD7hQApD2PJ5Q3fbw");//تۆکین لێرە دانێ
